@@ -43,6 +43,6 @@ public class Line2D extends Shape2D {
 
     @Override
     public String toString() {
-        return "Start Point: " + lineStart + ", End Point: " + lineEnd;
+        return lineStart + " " + lineEnd;
     }
 }

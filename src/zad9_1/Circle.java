@@ -32,6 +32,6 @@ public class Circle extends GeometricShape {
 
     @Override
     public String toString() {
-        return "Circle's radius: " + r;
+        return String.format("%.2f",r);
     }
 }

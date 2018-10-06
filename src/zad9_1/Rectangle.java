@@ -52,6 +52,6 @@ public class Rectangle extends GeometricShape {
 
     @Override
     public String toString() {
-        return "Rectangle: Base A: " + leghtOfBaseA + ", Base B: " + leghtOfBaseB + ", height: " + height;
+        return String.format("%.2f, %.2f, %.2f",leghtOfBaseA, leghtOfBaseB, height);
     }
 }

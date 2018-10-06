@@ -1,5 +1,6 @@
 package zad9_1;
 
+import java.util.Locale;
 import java.util.Objects;
 
 public class Point {
@@ -42,6 +43,6 @@ public class Point {
 
     @Override
     public String toString() {
-        return String.format("(%.1f ; %.1f)", posX,posY);
+        return String.format(Locale.US,"[%.1f, %.1f]", posX,posY);
     }
 }

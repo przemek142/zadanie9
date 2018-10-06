@@ -33,6 +33,6 @@ public class Cube extends Shape3D {
 
     @Override
     public String toString() {
-        return "Side lenght: " +lenghtOfSide;
+        return String.format("%.2f",lenghtOfSide);
     }
 }

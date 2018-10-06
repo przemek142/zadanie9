@@ -32,6 +32,6 @@ public class Ball extends Shape3D {
 
     @Override
     public String toString() {
-        return "Ball's radius: " + radius;
+        return String.format("%.2f",radius);
     }
 }
